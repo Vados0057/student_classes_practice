@@ -3,7 +3,7 @@ public class Student {
     //COMPLETE THIS CLASS BEFORE MathStudent and ScienceStudent classes as they will be sub-classes of Student class
     //HERE! Create a 5 args constructor
 
-    public Student(String firstName, String lastName, int age, char gender, String className) {
+    public Student(String firstName, String lastName, int age, String gender, String className) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
@@ -25,7 +25,7 @@ public class Student {
     private String firstName;
     private String lastName;
     private int age;
-    private char gender;
+    private String gender;
     private String className;
 
     /*

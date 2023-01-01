@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class UserQuestions {
 
     //COMPLETE THIS CLASS BEFORE THE TEST CLASS
@@ -17,5 +19,6 @@ public class UserQuestions {
     public static final String askFirstName = "What is your first name?";
     public static final String askLastName = "What is your last name?";
     public static final String askAge = "How old are you?";
+    public static final String askGender = "What is your gender? (F/M)";
     public static final String askClassName = "What class would you like to join? (Math/Science)";
 }
